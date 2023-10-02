@@ -1,0 +1,211 @@
+
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: hsl(221, 100%, 96%);
+    text-align: center;
+    height: 100vh;
+}
+
+/*---------all-----------*/
+.container{
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100vh;
+}
+
+/*---------Result part ^^ -----------*/
+
+.result-part {
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(180deg, hsl(252, 100%, 67%),hsl(241, 81%, 54%) 35%);
+    border-radius: 2.5em;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+    /*---------Result part ^^ / text/title -----------*/
+.h1-text-rp {
+    font-size: 25px;
+    color: hsl(241, 100%, 89%);
+    padding-bottom: 5   %;
+
+}
+    /*---------Result part / score  -----------*/
+.score-of-100-rp {
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    text-align: center;
+    width: 220px; /* Adjust the width to your desired size */
+    height: 220px; /* Adjust the height to your desired size */
+    margin: auto; /* Center the div horizontally within its parent (top (haut), right (droite), bottom (bas), left (gauche))*/
+    
+}
+
+.h1-score {
+    padding-top: 20%;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 80px;
+}
+
+.p-score {
+    margin: 0;
+    font-size: 18px;
+    color: hsl(241, 100%, 89%); ;
+}
+
+        /*---------Result part / footer part  -----------*/
+
+.h3-rp {
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+.p-footer-rp {
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+}
+
+
+/*---- summary part -----*/
+
+.summary-part {
+    background-color: hsl(0, 0%, 100%);
+    align-items: center;
+    border-radius: 2.5em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+
+/*---- summary part -----*/
+
+
+.h1-text-sp {
+    font-size: 25px;
+    padding-bottom: 5%;
+    text-align: left;
+}
+
+
+/*---- summary part / -----*/
+
+
+.on-100{
+    color: hsl(224, 30%, 27%);
+    padding-right: 20px;
+}
+
+.summary-part p {
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+
+
+/*---- summary part / center all the items -----*/
+
+
+.summary-details {
+    display: flex;
+    align-items: center;
+    width: auto;
+
+}
+
+/*---- summary part / Icon position -----*/
+
+.rmvv-text {
+    padding-right: 70px;
+}
+
+#p-summary {
+    text-align: right;
+}
+
+/*---- summary part / Icon position -----*/
+
+.summary-details img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*---- summary part / colors and elements positions -----*/
+
+.summary-reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.summary-memory {
+    background-color: hsla(39, 100%, 56%, 0.1) ;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.summary-verbal {
+    background-color: hsla(166, 100%, 37%, 0.1) ;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.summary-visual {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20%;
+}
+
+/*--------- summary part / "Continue Button" ----------*/
+.button a {
+    text-decoration: none  ;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.button  {
+    background-color: hsl(224, 30%, 27%) ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    border-radius: 30px;
+}
+
+.button:hover {
+    background: linear-gradient(180deg, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    transition: 0.4s;
+}
+/*---------footer-----------*/
+
+.attribution { 
+    font-weight: bold;
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+/* Mobile media */
+
+@media (max-width:375px) {
+    .container {
+        position: relative; /* Position relative pour le conteneur */
+        display: inline-block; /* Permet à la div de s'ajuster à la taille de son contenu */
+        background-color: white; /* Fond blanc */
+        padding: 0px; /* Ajoutez un peu de marge intérieure si nécessaire */
+    }
+    .result-part {
+        color: hsl(0, 0%, 100%);
+        background: linear-gradient(180deg, hsl(252, 100%, 67%),hsl(241, 81%, 54%) 35%);
+        border-radius: 2.5em;
+    }
+}
